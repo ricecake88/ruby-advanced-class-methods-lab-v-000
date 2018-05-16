@@ -47,7 +47,6 @@ class Song
     res = self.all.sort_by {|song| song.name}
   end
   
-<<<<<<< HEAD
   def self.new_from_filename(mp3Name)
     mp3Name.slice! ".mp3"
     newArray = mp3Name.split('-')
@@ -69,10 +68,9 @@ class Song
   
   def self.destroy_all
     @@all.clear
-=======
+    
   def self.new_From_filename(mp3Name)
     mp3name.split("-").slice! "mp3"
     
->>>>>>> a584087bb0c89339052a5645267030994f84101e
   end
 end
